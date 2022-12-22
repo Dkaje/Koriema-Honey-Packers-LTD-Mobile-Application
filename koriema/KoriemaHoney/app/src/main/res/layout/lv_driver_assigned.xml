@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:elevation="2dp"
+        card_view:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txv_orderID"
+                    android:text="OrderID"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colorBlack"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txv_name"
+                    android:text="Name"
+                    android:layout_below="@+id/txv_orderID"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colorBlack"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txv_orderStatus"
+                    android:text="Status"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/txv_orderCost"
+                    android:layout_marginLeft="10dp"/>
+                          </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

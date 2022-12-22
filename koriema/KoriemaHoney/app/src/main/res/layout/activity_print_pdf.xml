@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Varsani.Clients.PrintPdf">
+
+    <WebView
+        android:id="@+id/print_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/img_print"
+        android:text="Print pdf"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="25dp"/>
+</RelativeLayout>

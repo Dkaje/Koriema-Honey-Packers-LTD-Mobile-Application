@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Varsani.Staff.SelectLogin">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_finance"
+        android:background="@color/colorAccent"
+        android:text="Finance"
+        android:backgroundTint="@color/color_white"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="75dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_shipping_mrg"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/color_white"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:text="Shipping manager"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_driver"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/color_white"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:text="Driver"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_store_manager"
+        android:text="Inventory manager"
+        android:backgroundTint="@color/color_white"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorAccent"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

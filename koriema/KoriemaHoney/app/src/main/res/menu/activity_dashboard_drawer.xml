@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view_user">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Profile"
+            android:id="@+id/nav_home"/>
+        <item
+            android:id="@+id/nav_new_orders"
+            android:title="New orders" />
+         <item
+            android:id="@+id/nav_approvedOrders"
+            android:title="Approved orders" />
+        <item
+            android:id="@+id/nav_orders_to_shipp"
+            android:title="Approved" />
+        <item
+            android:id="@+id/nav_shipping_orders"
+            android:title="Shipping" />
+
+        <item
+            android:id="@+id/nav_assigned_orders"
+            android:title="Assigned" />
+        <item
+            android:id="@+id/nav_arrived_orders"
+            android:title="Pending confirmation" />
+        <item
+            android:id="@+id/nav_delivered_orders"
+            android:title="Delivered" />
+        <item
+            android:id="@+id/nav_stock"
+            android:title="Stock" />
+
+        <item
+            android:id="@+id/nav_staff_feedback"
+            android:title="Feedback"/>
+
+        <item
+            android:id="@+id/nav_supplies"
+            android:title="Request" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+>
+    </group>
+
+<!--    <item android:title="Your categories">-->
+<!--        <menu>-->
+
+<!--            <item-->
+<!--                android:id="@+id/nav_login"-->
+<!--                android:title="@string/menu_login" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_logout"-->
+<!--                android:title="@string/logout" />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

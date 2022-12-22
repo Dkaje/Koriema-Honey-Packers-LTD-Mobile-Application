@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txv_itemName"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold|italic"
+                android:textSize="16dp"
+                android:text="Item"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txv_price"
+                    android:textStyle="bold"
+                    android:text="1000 ksh"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txv_quantity"
+                    android:layout_marginLeft="35dp"
+                    android:layout_toRightOf="@+id/txv_price"
+                    android:textStyle="bold"
+                    android:text="1000 ksh"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txv_subtotal"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:text="1000 ksh"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/txv_orderStatus"
+                android:background="@android:color/black" />
+
+        </LinearLayout>
+</LinearLayout>

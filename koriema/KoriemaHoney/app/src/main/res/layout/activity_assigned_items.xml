@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Varsani.Staff.Driver.AssignedItems">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="90dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_payment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:elevation="5dp"
+                    app:cardElevation="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txv_details"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="5dp"
+                            android:text="Order details"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txv_orderID"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="OrderID"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txv_orderStatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:paddingBottom="5dp"
+                            android:text="Order Status"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_below="@id/txv_orderStatus"
+                            android:background="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="5dp"
+                            android:text="Shipping details"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txv_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Name"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txv_county"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="County"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txv_town"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Town"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txv_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:paddingBottom="5dp"
+                            android:text="Address"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:text="Items"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:scrollbars="vertical"
+                    android:scrollingCache="true"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layout_bottom"
+        android:background="@color/transparent"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_submit"
+            android:background="@color/colorAccent"
+            android:text="Deliver"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/colorWhite"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

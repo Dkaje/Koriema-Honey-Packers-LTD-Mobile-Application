@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/drawable-v24/button_background.xml" value="0.19" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.1535" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/font/rubik.xml" value="0.23675213675213674" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_accept.xml" value="0.21153846153846154" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_approved_orders.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_assigned_items.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_check_out.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_choose_user.xml" value="0.21153846153846154" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_confirm_payment.xml" value="0.21153846153846154" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_dashboard.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_delivered_orders.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_edit_shipping_dtls.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_feedback.xml" value="0.2" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_forgot_password.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_help.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_help_order_product.xml" value="0.19743589743589743" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_how_to_login.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_items_to_ship.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_login.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_new_orders.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_order_details.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_order_items.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_orders_hist.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_orders_to_ship.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_print_pdf.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_search.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_select_login.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_shipping_details.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/activity_staff_feedback.xml" value="0.15384615384615385" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/app_bar_dashboard.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/app_bar_main.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/content_dashboard.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/content_main.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/fragment_profile.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/lv_driver_assigned.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/layout/lv_products.xml" value="0.21196581196581196" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/menu/activity_dashboard_drawer.xml" value="0.152991452991453" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/KoriemaHoney/app/src/main/res/menu/activity_main_drawer.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.1805" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.1805" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" value="0.1805" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable/button_bg.xml" value="0.2355" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1805" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1805" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable/ic_menu.xml" value="0.1805" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable/ic_menu_bar.xml" value="0.1805" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable/ic_notifications.xml" value="0.1805" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable/ic_shopping_cart_24.xml" value="0.1805" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/drawable/ic_shopping_cart_white.xml" value="0.1805" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_about.xml" value="0.19615384615384615" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_accept.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_add_stock.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_approved_orders.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_arrived_orders.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_assigned_items.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_assigned_orders.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_cart_items.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_check_out.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_choose_user.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_dashboard.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_delivered_orders.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_help.xml" value="0.19615384615384615" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_help_in.xml" value="0.19914529914529913" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_order_details.xml" value="0.2141025641025641" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_order_items.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_reg_suppliers.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_request_supplier.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_requests.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_select_login.xml" value="0.15341880341880343" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/activity_staff_login.xml" value="0.15341880341880343" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/app_bar_dashboard.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/app_bar_main.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/content_dashboard.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/content_main.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/fragment_home.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/fragment_profile.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/lv_cart_items.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/lv_client_items.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/lv_driver_assigned.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/lv_products.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/nav_header_main.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/newlogin.xml" value="0.2364258230012826" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/layout/prompts.xml" value="0.23632478632478632" />
+        <entry key="..\:/Users/jehu/AndroidStudioProjects/Varsani_app/app/src/main/res/menu/activity_main_drawer.xml" value="0.14102564102564102" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_assigned_items.xml" value="0.1526268115942029" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_cart_items.xml" value="0.1" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_check_out.xml" value="0.1" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_dashboard.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_delivered_orders.xml" value="0.1526268115942029" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_login.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_main.xml" value="0.10157041540020263" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_new_orders.xml" value="0.1" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_order_details.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_order_items.xml" value="0.1" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_orders_hist.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_profile.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_register.xml" value="0.10511651469098278" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_single_item.xml" value="0.1" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/activity_stock.xml" value="0.15806159420289856" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/app_bar_dashboard.xml" value="0.18568840579710144" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/app_bar_main.xml" value="0.19791666666666666" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/content_dashboard.xml" value="0.18568840579710144" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/content_main.xml" value="0.19791666666666666" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/lv_cart_items.xml" value="0.1" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/lv_client_items.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/lv_client_orders.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/lv_items.xml" value="0.1" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/lv_orders.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/lv_products.xml" value="0.1" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/nav_header_main.xml" value="0.19384057971014493" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/layout/prompts.xml" value="0.1" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/menu/activity_dashboard_drawer.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/KeMUFarm/app/src/main/res/menu/search_bar.xml" value="0.27708333333333335" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/drawable/ic_cart.xml" value="0.115625" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/drawable/ic_menu.xml" value="0.221025641025641" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/drawable/ic_menu_bar.xml" value="0.221025641025641" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/drawable/ic_print.xml" value="0.22447916666666667" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/drawable/ic_print_black.xml" value="0.115625" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/drawable/ic_search.xml" value="0.221025641025641" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/drawable/ic_shopping_cart_24.xml" value="0.115625" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_about.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_accept.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_approved_orders.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_arrived_orders.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_assigned_items.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_assigned_orders.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_cart_items.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_check_out.xml" value="0.10733695652173914" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_dashboard.xml" value="0.1068840579710145" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_end_feedback.xml" value="0.10914855072463768" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_feedback.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_help.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_help_in.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_items_to_ship.xml" value="0.1068840579710145" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_login.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_main.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_my_requests.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_new_orders.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_order_details.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_order_items.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_profile.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_reg_suppliers.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_register.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_request_items.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_request_supplier.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_search.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_select_login.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_single_item.xml" value="0.10733695652173914" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/activity_stock.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/app_bar_dashboard.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/app_bar_main.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/content_dashboard.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/fragment_home.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/fragment_profile.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_cart_items.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_client_items.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_client_orders.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_driver_assigned.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_items.xml" value="0.10131712259371833" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_my_request.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_order_items.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_orders.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_orderstoship.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_products.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/lv_request.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/layout/nav_header_main.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/menu/activity_dashboard_drawer.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/menu/activity_main_drawer.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/menu/main.xml" value="0.20833333333333334" />
+        <entry key="..\:/hustle_free/Varsani/app/src/main/res/menu/search_bar.xml" value="0.18425925925925926" />
+        <entry key="..\:/hustle_free/Varsani_app/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

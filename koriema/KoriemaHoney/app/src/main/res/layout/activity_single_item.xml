@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Varsani.Clients.SingleItem">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/layout_single"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="1dp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardElevation="2dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/image_product"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                tools:srcCompat="@tools:sample/avatars" />
+                            <TextView
+                                android:id="@+id/txv_product_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/image_product"
+                                android:layout_marginLeft="35dp"
+                                android:layout_marginTop="30dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:gravity="center"
+                                android:text="Name"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txv_price"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold|italic"
+                                android:textSize="24dp"
+                                android:layout_toRightOf="@+id/image_product"
+                                android:layout_marginLeft="35dp"
+                                android:layout_below="@+id/txv_product_name"
+                                android:text="Ksh"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txv_instock"
+                                android:textColor="#0079D6"
+                                android:textStyle="bold|italic"
+                                android:layout_toRightOf="@+id/image_product"
+                                android:layout_marginLeft="35dp"
+                                android:layout_below="@+id/txv_price"
+                                android:text="IN STOCK"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardElevation="1dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Details"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txv_ad_description"
+                            android:text=""/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/layout_bottom">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add to cart"
+                        android:id="@+id/btn_add_cart"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/colorWhite"
+                        android:backgroundTint="@color/colorPrimaryDark"/>
+
+                    <ProgressBar
+                        android:id="@id/progressBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

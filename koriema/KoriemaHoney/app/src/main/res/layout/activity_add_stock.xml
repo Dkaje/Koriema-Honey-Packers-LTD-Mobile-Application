@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Varsani.Staff.Store_mrg.AddStock">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/card_shipping_details"
+        android:elevation="5dp"
+        app:cardElevation="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txv_product_name"
+                android:text="Product"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txv_price"
+                android:text="KSH 100"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txv_stock"
+                android:text="Stock"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:paddingBottom="15dp"
+                android:textColor="@color/colorBlack"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layout_bottom"
+        android:background="@color/transparent"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_quantity"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:textColorHint="@color/colorWhite"
+            android:paddingTop="10dp"
+            android:textColor="@color/colorWhite"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_submit"
+            android:background="@color/colorAccent"
+            android:layout_below="@+id/edt_quantity"
+            android:text="Submit"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/colorWhite"/>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Koriema</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">KoriemaHoney</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home_second">Home Second</string>
+    <string name="logout">Logout</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="orders">Orders</string>
+    <string name="feedback">Feedback</string>
+    <string name="staff_login">Login</string>
+    <string name="about">
+
+                Koriema Honey Packers is a company that hygienically processes, packs honey to retain its taste, then further sells the honey. The company is located in Baringo county, Baringo south constituency along Marigat-Kabarnet road at a small town called Koriema.
+The company operates within Rift valley, especially Baringo county and its neighboring counties i.e., Nakuru and Elgeyo Marakwet.  The company is managed by the government of Kenya through Koriema honey packer’s group led by their manager.
+Koriema honey is pure and natural honey harvested from the wild flowers of Baringo savannahs. The savannah vegetation provides requisite pollen and nectar that concocts the tasty wild honey that Koriema honey packers sells. The company ensures that quality is maintained from harvesting to packaging so that the customers have the best honey experience.
+The company processes the honey from the honey combs of the hives and pouring it over a mesh or nylon cloth to separate the honey from impurities like beeswax and dead bees. Koriema honey is popular because it has no additives.
+Once strained, raw honey is bottled and ready to be enjoyed. Some commercially honeys are additionally processed by undergoing filtration. The company packs and sells the honey depending on the intended market, honey maybe bottled directly into small containers for sell or into large drums for storage.
+We  sell the purest honey from Baringo both retail and wholesale. Its available in 300g,500g, 1kg and 5L. The company also sells stingless bees. The best of Koriema
+honey (Baringo) 500g is 450Ksh, among similar product of Koriema organic honey- 500g the cheapest price is 350Ksh. The best price for 1kg is 700Ksh and amongst similar products of the honey -1kg cheapest price is 650Ksh.
+Initially, they would sell unprocessed honey for sh.100 a liter before officials from the Agricultural Sector Development Support Programme under the Ministry of Agriculture trained them on the need of value addition. The company is currently the leading honey-selling group in Baringo county. They pack not less than 50 kilos of honey every day, a 20-litre bucket of honey mixed with wax goes
+for sh 7,500.
+Koriema honey packers sources their honeys from Koriema Honey producers, which is an association of local honey farmers. Koriema pure honey gives you the finest honey in retail and wholesale.
+Koriema honey packers was established in 2014 as a table banking group who engaged in small business activities in the market. As time went, however, they realized the need to come together, raised some money to use in the capital-intensive honey selling.
+
+    </string>
+
+
+    <string name="selectparceltype">On the parceltype selection page, be sure to select at least one type of parcel according to your specification.Note! You can only select one type of parcel at a time. </string>
+    <string name="cartitems">This shows a list of all items added and held in the cart. You can modify the quantity of the products and proceed to checkout.</string>
+    <string name="payment">On the checkout page, you are expected to enter a valid mpesa code.The Mpesacode is ten characters and should contain letters and numbers. No characters are allowed</string>
+
+    <string name="stafflogin">For the staff page,You need to select your login page according to the employee role.</string>
+    <string name="approvedaccount">Once your account is approved, you can proceed to login to your account using the credentials created during registration.Please be sure to select the correct login page(for users, use the customer page),(staff login use the staff page)</string>
+    <string name="howtologin">If you dont have an account, you can create one on the registration page.Fill in your details correctly as instructed by the system.(This is only for customers). Await account approval from admin</string>
+
+    <string name="print">To print/export your reciept, click on the print icon.You will be prompted to select type of document.</string>
+    <string name="addcart">To add an item to cart, select product from list and click on the cart image </string>
+    <string name="vieworders">To view a record of previous orders made, Click on the orders Tab on the customer dashboard side-menu</string>
+
+
+    <string-array name="recipient">
+        <item>Select Recipient</item>
+        <item>Finance</item>
+        <item>Shipping manager</item>
+        <item>Driver</item>
+        <item>InventoryManager</item>
+    </string-array>
+
+    <string name="help">
+        <b>1.	Help</b>
+
+    </string>
+
+</resources>

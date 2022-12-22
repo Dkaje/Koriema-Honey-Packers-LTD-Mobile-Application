@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+ <item
+            android:id="@+id/nav_about"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_request"
+            android:title="Requests" />
+        <item
+            android:id="@+id/nav_orders"
+            android:title="@string/orders" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="@string/feedback" />
+        <item
+            android:id="@+id/nav_register"
+            android:title="@string/register" />
+        <item
+            android:id="@+id/nav_login"
+            android:title="@string/login" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_staff_login"
+            android:title="Staff" />
+
+        <item
+            android:id="@+id/nav_reg_supplier"
+            android:title="Register supplier" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

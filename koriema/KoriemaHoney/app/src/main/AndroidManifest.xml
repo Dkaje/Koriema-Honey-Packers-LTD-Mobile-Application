@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Varsani">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/koriema_android_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Staff.StaffFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmPayment"
+            android:exported="false" />
+        <activity
+            android:name=".HelpOrderProduct"
+            android:exported="false" />
+        <activity
+            android:name=".HowToLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Clients.ChooseUser"
+            android:exported="false" />
+        <activity
+            android:name=".Suppliers.Accept"
+            android:exported="false" />
+        <activity
+            android:name=".Suppliers.MyRequests"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.RequestItems"
+            android:exported="false" />
+        <activity
+            android:name=".Staff.Store_mrg.RequestSupplier"
+            android:exported="false" />
+        <activity
+            android:name=".Suppliers.Requests"
+            android:exported="false" />
+        <activity
+            android:name=".Suppliers.RegSuppliers"
+            android:exported="false" />
+        <activity android:name=".Clients.Help_in" />
+        <activity android:name=".Clients.EndFeedback" />
+        <activity android:name=".Clients.PrintPdf" />
+        <activity android:name=".Clients.About" />
+        <activity android:name=".Clients.Help" />
+        <activity android:name=".Staff.SelectLogin" />
+        <activity
+            android:name=".Staff.Store_mrg.AddStock"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".Staff.Store_mrg.ViewStock" />
+        <activity android:name=".Staff.Driver.AssignedItems" />
+        <activity android:name=".Staff.Driver.DeliveredOrders" />
+        <activity android:name=".Staff.Driver.ArrivedOrders" />
+        <activity android:name=".Staff.Driver.AssignedOrders" />
+        <activity android:name=".Staff.ShippingMrg.ShippingOrders" />
+        <activity android:name=".Staff.ShippingMrg.ItemsToShip" />
+        <activity android:name=".Staff.ShippingMrg.OrdersToShip" />
+        <activity
+            android:name=".Staff.Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Staff.Finance.ApprovedOrders" />
+        <activity android:name=".Staff.Finance.OrderDetails" />
+        <activity android:name=".Staff.Finance.NewOrders" />
+        <activity android:name=".Staff.StaffLogin" />
+        <activity android:name=".Clients.OrderItems" />
+        <activity android:name=".Clients.Search" />
+        <activity android:name=".Clients.SingleItem" />
+        <activity android:name=".Clients.EditShippingDtls" />
+        <activity android:name=".Clients.ShippingDetails" />
+        <activity android:name=".Clients.Feedback" />
+        <activity android:name=".Clients.CheckOut" />
+        <activity android:name=".Clients.CartItems" />
+        <activity android:name=".Clients.UpdateProfile" />
+        <activity android:name=".Clients.Orders_hist" />
+        <activity android:name=".Clients.Profile" />
+        <activity
+            android:name=".Clients.Login"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Clients.Register"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
